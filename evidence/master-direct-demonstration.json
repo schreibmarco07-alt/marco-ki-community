@@ -1,0 +1,17 @@
+{
+  "schema": "MARCO_COMMUNITY_PRIVATE_MODEL_EVIDENCE_V1",
+  "date": "2026-11-02",
+  "scope": "Private MASTER Direct on Hetzner master-ai-01; not a public demo endpoint",
+  "source": "Actual server-side test using existing marco-direct CLI and local service",
+  "model": "qwen2.5:1.5b (configured private MASTER Direct model)",
+  "question": "Was ist 2 plus 3? Antworte mit der Zahl.",
+  "actual_answer": "5",
+  "result": "OBSERVED_RESPONSE_ONLY",
+  "private_service_active_at_test": true,
+  "external_ai_runtime_called": false,
+  "public_model_access_verified": false,
+  "mobile_owner_login_verified": false,
+  "cross_server_authenticated_generation_verified": false,
+  "full_provider_independence_claimed": false,
+  "safety": "No tokens, internal addresses, private logs or customer data included"
+}
